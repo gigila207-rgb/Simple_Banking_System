@@ -1,17 +1,21 @@
-from data import account, transactions
+from utils import pause
 
 
 def check_balance():
-    pass
+    print("\nBalance feature coming soon...")
+    pause()
 
 
 def deposit():
-    pass
+    print("\nDeposit feature coming soon...")
+    pause()
 
 
 def withdraw():
-    pass
+    print("\nWithdraw feature coming soon...")
+    pause()
 
 
 def transaction_history():
-    pass
+    print("\nHistory feature coming soon...")
+    pause()
