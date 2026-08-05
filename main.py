@@ -1,39 +1,13 @@
-from utils import show_header, show_menu
-from bank import (
-    check_balance,
-    deposit,
-    withdraw,
-    transaction_history,
-)
+# main.py
+
+from utils import show_header
 
 
 def main():
-    while True:
+    show_header()
 
-        show_header()
-        show_menu()
-
-        choice = input("\nChoose an option: ")
-
-        if choice == "1":
-            check_balance()
-
-        elif choice == "2":
-            deposit()
-
-        elif choice == "3":
-            withdraw()
-
-        elif choice == "4":
-            transaction_history()
-
-        elif choice == "5":
-            print("\nThank you for using Python Bank!")
-            break
-
-        else:
-            print("\nInvalid choice.")
-            input("Press Enter to continue...")
+    print("\nWelcome to Python Bank!")
+    print("Project setup completed successfully.")
 
 
 if __name__ == "__main__":
