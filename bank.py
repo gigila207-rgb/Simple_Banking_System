@@ -1,21 +1,16 @@
-from utils import pause
-
+# bank.py
 
 def check_balance():
-    print("\nBalance feature coming soon...")
-    pause()
+    pass
 
 
 def deposit():
-    print("\nDeposit feature coming soon...")
-    pause()
+    pass
 
 
 def withdraw():
-    print("\nWithdraw feature coming soon...")
-    pause()
+    pass
 
 
-def transaction_history():
-    print("\nHistory feature coming soon...")
-    pause()
+def show_history():
+    pass
